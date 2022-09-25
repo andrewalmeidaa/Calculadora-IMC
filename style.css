@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-color: blueviolet;
+    height: 100vh;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.calculador{
+position: absolute;
+transform: translate(-50%, -50%);
+top: 50%;
+left: 50%;
+
+}
+
+.input{
+border: none;
+border-radius: 30px;
+padding: 10px;
+width: 400px;
+}
+
+.botao{
+     border: none;
+     border-radius: 2px;
+     width: 90px;
+     height: 30px;
+     margin: 10px;
+     
+     font-size: medium;
+     font-family: 'Times New Roman', Times, serif;     padding: 5px;
+     cursor: pointer;
+     border-radius: 15px;
+    background-color: orange;
+    }
+
+    #resultado{
+        height: 50px;
+        background-color: white;
+        margin: 5px;
+        font-size: 25px;
+        color: black;
+        text-align: center;
+        padding: 6px;
+        border-radius: 18px;
+    
+}
+
+h2{
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+#sub-titulos{
+    color: orange;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+
+
+
+#tituloprincipal{
+    padding-top: 50px;
+    color: orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#titulo{
+    color: orange;
+
+}
