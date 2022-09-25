@@ -1,0 +1,1 @@
+Projeto para criar uma calculadora de imc baseada na altura e peso do usuario, proxima etapa e informar, baseado no imc, se o imc do usuario e bom  ou ruim.
