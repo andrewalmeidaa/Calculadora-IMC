@@ -9,21 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="fundo">
-        <h1 id="tituloprincipal">Índice de massa corporal</h1>
-        <div class="calculador">
-            <h2 id="sub-titulos">Calculador</h2>
+        <h1 id="tituloprincipal">Índice de massa corporal ( IMC )</h1>
+        <div id="calculador" class="container">
+            <h2 id="sub-titulos">Calculadora</h2>
             
-        <h2> Informe seu peso<h2 <p id="titulo">(em kg)</p><br>
-            <input type="number" class="input" placeholder="Peso" id="peso"><br>
+        <h2> Informe seu peso<h2> <p id="titulo"> (em kg)</p><br>
+            <input type="number" class="input" placeholder="Peso. Ex: 64.3" id="peso"><br>
         <h2> Informe seu altura</h2><p id="titulo">(em metros)</p><br>
-            <input type="number" class="input" placeholder="Altura" id="altura"><br>
+            <input type="number" class="input" placeholder="Altura. Ex: 1.73" id="altura"><br>
         <button class="botao" type="submit" id="btn">Calcular</button><br>
         <h2 id="titulos">Resultado</h2>
-        <div>
-            <p id="resultado"></p>
-        </div>
-        
+        <div id="boxResultado" class="boxResultado">
         </div>
     </div>    
 </body>

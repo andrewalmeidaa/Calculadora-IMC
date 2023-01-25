@@ -1,20 +1,20 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.fundo{
-    background-color: blueviolet;
-    height: 100vh;
-    color: black;
+body{
+    background-color: #bad306;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.calculador{
-position: absolute;
-transform: translate(-50%, -50%);
-top: 50%;
-left: 50%;
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .input{
@@ -35,23 +35,9 @@ width: 400px;
      font-family: 'Times New Roman', Times, serif;     padding: 5px;
      cursor: pointer;
      border-radius: 15px;
-    background-color: orange;
     }
 
-    #resultado{
-        height: 50px;
-        background-color: white;
-        margin: 5px;
-        font-size: 25px;
-        color: black;
-        text-align: center;
-        padding: 6px;
-        border-radius: 18px;
-    
-}
-
 h2{
-    color: orange;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -60,24 +46,32 @@ h2{
     font-size: x-large;
 }
 #sub-titulos{
-    color: orange;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
 
 
 }
 
-
-
-
 #tituloprincipal{
     padding-top: 50px;
-    color: orange;
     font-family: 'Times New Roman', Times, serif;
 }
 
 
-#titulo{
-    color: orange;
 
+
+#resultado{
+    background-color: white;
+    font-size: 25px;
+    /* color: black; */
+    border-radius: 18px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.boxResultado{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
